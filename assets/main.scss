@@ -1,0 +1,25 @@
+// Import the minima theme styles
+@import "minima";
+
+// Define your custom color
+$brand-color: #338041; // RGB(51, 128, 65)
+
+// Override Minima's SASS variables
+// Example: Change link color and header color
+$link-base-color: $brand-color;
+$text-color: #333; // Adjust base text color if needed
+$brand-color-dark: darken($brand-color, 15%); // Optional: darker shade for hover effects etc.
+
+// You can add more specific CSS rules here if needed
+// For example, customize the site title color:
+.site-title, .site-title:visited {
+  color: $brand-color;
+}
+
+// Customize blockquote style (optional example)
+blockquote {
+  border-left: 4px solid $brand-color;
+  color: #555;
+  padding-left: $spacing-unit / 2;
+  font-style: italic;
+} 
