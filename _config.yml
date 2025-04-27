@@ -1,0 +1,15 @@
+title: "Un Humain Sur Terre"
+author: "Magellan"
+description: "Voyage intellectuel et introspectif à travers la littérature et la philosophie"
+email: magellan.barbosa@proton.me # optionnel
+
+# Configuration du thème
+theme: minima
+
+# Personnalisation du thème
+minima:
+  skin: classic
+
+# Configuration supplémentaire
+show_excerpts: true    # pour afficher des extraits sur la page d'accueil
+permalink: /:year/:month/:day/:title/
