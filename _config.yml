@@ -13,3 +13,8 @@ minima:
 # Configuration supplémentaire
 show_excerpts: true    # pour afficher des extraits sur la page d'accueil
 permalink: /:year/:month/:day/:title/
+
+# Add this line to tell Jekyll to look for your custom SASS file
+sass:
+  sass_dir: assets
+  style: compressed
